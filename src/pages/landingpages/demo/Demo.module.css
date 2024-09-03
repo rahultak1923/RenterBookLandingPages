@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.demo_section{
+    margin: 0;
+    width: 90vw;
+    /* height: 100vh; */
+    padding: 5%;
+    overflow: hidden;
+   font-family: "Poppins";
+   
+}
+
+.demo_comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.demo_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    align-items: flex-start;
+    overflow: hidden;
+    /* background-color: aliceblue; */
+}
+
+.demo_heading{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.demo_tagline{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.ast{
+    color: red;
+}
+
+.demo_form_label{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(80, 1, 80);
+    margin-bottom: 4px;
+}
+
+.demo_form_input{
+    border: 0.5px solid rgb(203, 202, 202);
+    border-radius: 12px;
+    height: 5vh;
+    background-color: rgb(233, 238, 244);
+    width: 100%;
+}
+
+.demo_form_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin-bottom: 6px;
+}
+
+.demo_form_button{
+    padding: 8px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #562D7B;
+    font-family: "poppins";
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+
+.demo_graphics{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1600px){
+    .demo_graphic{
+        width: 70%;
+    }
+    .demo_graphic img{
+        width: 100%;
+    }
+    .demo_form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .demo_graphic{
+        display: none;
+        width: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .demo_comp{
+        justify-content: center;
+        align-items: center;
+    }
+    .demo_graphic{
+        width: 0px;
+    }
+    .demo_graphic img{
+        display: none;
+    }
+    .demo_form{
+        width: 100%;
+    }
+    .demo_heading{
+        font-size: 28px;
+    }
+    .demo_form_button{
+        margin-left: 56%;
+    }
+    .demo_form_input{
+        height: 4vh;
+    }
+}

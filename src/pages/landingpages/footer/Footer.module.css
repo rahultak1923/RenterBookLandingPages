@@ -1,0 +1,186 @@
+.footerSection {
+    display: flex;
+    padding: 50px 0;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    border-top: 1px solid rgb(233, 232, 232) ;
+  }
+  
+  .fLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 30vw;
+  }
+  .footerlogo{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #562D7B;
+    font-weight: bold;
+     letter-spacing: 1px;
+    
+  }
+  .footerlogo span{
+    font-size: 30px;
+    color: #562D7B;
+    
+  }
+
+  .footerCompany{
+    margin-bottom: 1rem;
+  }
+  
+  .logoImg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .fLeft h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 5px 0;
+    /* font-weight: bold; */
+  }
+  
+  .fLeft h5 {
+    text-align: left;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    letter-spacing: 1px;
+  }
+  
+  .ftrDemoBtn {
+    background-color: #562D7B;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .ftrDemoBtn:hover{
+    background-color: #562D7B;
+  }
+  
+  .fMid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+  }
+  
+  .fMid p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 540;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .fMid p:hover {
+    color: #562D7B;
+  }
+  
+  /* right footer section */
+  .fRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .fRLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fRLeft .ftrSocialLogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ftrSocialLogos a {
+    color: #7d51a4;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .ftrSocialLogos a:hover {
+    color: #562D7B;
+  }
+  
+  .fRRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ftrPhnBtn {
+    padding: 5px 10px;
+    color: white;
+    background-color: #562D7B;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .ftrPhnBtn:hover{
+    background-color: #562D7B;
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .fRight {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footerSection {
+      flex-direction: column;
+      /* padding: 40px; */
+      gap: 20px;
+    }
+  
+    .fLeft {
+      width: auto;
+    }
+  
+    .fMid {
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+    .fmid ul {
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 0;
+    }
+  
+    .fmid li {
+      font-size: 1rem;
+    }
+  
+    .fRight {
+      align-items: center;
+    }
+  
+    .fRLeft, .fRRight {
+      align-items: flex-start;
+  }
+  }
+  
+  

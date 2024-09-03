@@ -1,0 +1,228 @@
+/* pricing.module.css */
+
+.pricingContainer {
+    width: 100vw;
+    /* background-color: #470265; */
+    background-color: #cec8da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 25px; */
+    /* padding:120px; */
+    /* padding: 80px 100px 0; */
+  }
+  
+  .pricingContent {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    gap: 10px;
+  }
+  
+  .sectionHeading {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    /* color: white; */
+    color: #562d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-align: center; */
+  }
+  
+  .sectionDescription {
+    font-weight: 500;
+    /* color: white; */
+    color: #562d7b;
+    font-size: 40px;
+    width: 80%;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+  }
+  .pricing_boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .pricingCard {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 32%;
+    background-color: #50378b;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .premiummm {
+    border: 2px solid rgba(255, 227, 71, 0.6);
+    box-shadow: rgb(255, 215, 0, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .pricingDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  
+    /* width: 90vw; */
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f3e5ff;
+  }
+  
+  .description {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #4b5563;
+    color: #ececec;
+    width: 80%;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    font-family: "Poppins";
+  }
+  
+  .orig {
+    display: flex;
+    font-family: "Poppins";
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .orig_price {
+    font-size: 20px;
+    color: white;
+    text-decoration: line-through;
+  }
+  
+  .orig .discountPercent {
+    font-weight: bold;
+    color: gold;
+    text-decoration: none !important;
+  }
+  
+  .info {
+    font-size: 0.875rem;
+    color: #edf4fe;
+    font-family: "Poppins";
+    margin-bottom: 1rem;
+  }
+  
+  .price_button {
+    margin-top: 15px;
+    background-color: #522b74;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+    width: 150px;
+    border: none;
+  }
+  
+  .price_button:hover {
+    background-color: #805ad5;
+  }
+  
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 15px;
+  }
+  
+  .benefit {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .tickIcon {
+    color: #15033f;
+  }
+  
+  .benefitText {
+    font-size: 0.9rem;
+    color: rgb(232, 232, 232);
+    text-align: start;
+  }
+  
+  .arrow_pricing {
+    position: relative;
+    left: 150px;
+    top: 50px;
+    zoom: 2;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .arrow_pricing {
+      display: none;
+    }
+   
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .pricing_boxes {
+      flex-direction: column;
+      align-items: center;
+    }
+    .pricingCard {
+      width: 64%;
+      padding: 50px 30px;
+    }
+    .sectionDescription {
+      width: 100%;
+    }
+    .pricingContainer{
+      width: 85vw;
+    }
+  }
+  @media (max-width: 500px) {
+    .pricingCard {
+      width: 90%;
+      padding: 24px 16px;
+    }
+    .description {
+      font-size: 14px;
+      width: 100%;
+    }
+    .benefitText {
+      font-size: 0.8rem;
+    }
+    .price {
+      font-size: 24px;
+    }
+    .info {
+      font-size: 12px;
+    }
+    .price_button {
+      font-size: 14px;
+    }
+    .sectionDescription {
+      font-size: 24px;
+      width: 100%;
+    }
+    .pricingContainer {
+      padding: 30px 30px;
+    }
+    .sectionHeading{
+        font-size: 1.2rem;
+        margin-top: 0.1rem;
+    }
+    .pricingCard{
+        margin-top: 40px;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+.detailed_service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.arrow_detailServices{
+    position: relative;
+    left: 150px;
+    zoom: 2;
+}
+
+@media screen and (max-width: 480px){
+    .arrow_detailServices {
+        display: none;
+    }
+}
+@media screen and (max-width: 440px){
+    .detailed_service{
+        padding: 20px 40px;
+    }
+}

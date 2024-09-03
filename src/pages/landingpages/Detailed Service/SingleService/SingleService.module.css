@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.single_service {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 40px;
+    border-radius: 24px;
+    transition: all ease 0.2s;
+    font-family: "Poppins";
+}
+
+.single_service:hover {
+    background-color: rgb(246, 246, 246);
+}
+
+.service_image {
+    width: 50%;
+}
+
+.service_image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.service_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: "Inter";
+}
+
+.service_arr{
+    width: 100px;
+}
+
+.service_arr img{
+    width: 100%;
+}
+
+/* .row_reverse{
+    display: flex;
+
+    flex-direction: row-reverse;
+} */
+
+.service_heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(61, 0, 117);
+    font-family: "Poppins";
+}
+
+.service_text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.service_more {
+    padding: 8px 18px;
+    background-color: rgb(61, 0, 117);
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1400px) {
+    .single_service {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .single_service {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .service_image {
+        width: 100%;
+    }
+
+    .service_content {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+    .service_heading {
+        font-size: 20px;
+    }
+
+    .service_text {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .single_service {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 60px;
+    }
+
+    .single_service:hover {
+        background-color: white;
+    }
+
+    .service_image {
+        width: 100%;
+    }
+
+    .service_image img {
+        border-radius: 10px;
+    }
+
+    .service_content {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .service_heading {
+        font-size: 20px;
+    }
+
+    .service_text {
+        font-size: 16px;
+    }
+}
